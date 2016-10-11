@@ -1,1 +1,5 @@
+#Executive Summary
+The system displays a model to depict the way of working in the development environment. Two primary stakeholders are taken in to consideraton Manager and Developer. They are the external sources to our system. The system contains information about the software packages, with their licenses and vulnerabilities stored on different locations, policy information and project information on which the developer would be working currently. Also the flow of data is shown.
+
+The function in any organization related to development would be same as displayed in the model. This system makes the reviewing license and vulnerability speed up for the developer as well as for the manager. The developer has right to look for it on his own to check the threshold of the project. Similarly, wiht the policy information, developer and manager both can fetch on different levels of request. Overall the system looks efficient and motivated towards automating the long manual processes and making them concise to be more useful.
 
