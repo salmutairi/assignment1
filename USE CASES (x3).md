@@ -2,54 +2,54 @@
 
 #Use Case 1:
 
-**Title:** 
+**Title:** Retrieving the license and vulnerability information for a software package
 
-**Primary Actor:**
+**Primary Actor:** Developer
 
-**Goal in Context:**
+**Goal in Context:** Successfully getting information about the software package's license and vulnerability.
 
-**Stakeholders:**
+**Stakeholders:** Developer, Manager
 
-**Preconditions:**
+**Preconditions:** Software package license and vulnerability DB have the information about the licenses and vulnerabilities for the software packages.
 
-**Main Success Scenario:**
+**Main Success Scenario:** The developer recieves the information about the software package with licenses and vulnerabilities.
 
-**Failed end Conditions:**
+**Failed end Conditions:** Developer does not recieves the information.
 
-**Trigger:**
+**Trigger:** The developer sends request to the manage packages to fetch the information.
 
 #Use Case 2:
 
-**Title:** 
+**Title:** Get the summarized project information to compare with the policy information.
 
-**Primary Actor:**
+**Primary Actor:** Manager
 
-**Goal in Context:**
+**Goal in Context:** Fetch the information from summarized project data and policy database.
 
-**Stakeholders:**
+**Stakeholders:** Manager, Developer
 
-**Preconditions:**
+**Preconditions:** Policy database having all records for the policies and summarized project data contains all information about the project.
 
-**Main Success Scenario:**
+**Main Success Scenario:** Manager recieving information from both the end.
 
-**Failed end Conditions:**
+**Failed end Conditions:** Manager not recieving information from either one of the database or even from both.
 
-**Trigger:**
+**Trigger:** Manager requesting for policy inforamtion and project information.
 
 #Use Case 3:
 
-**Title:** 
+**Title:** Operating on the policy data
 
-**Primary Actor:**
+**Primary Actor:** Manager
 
-**Goal in Context:**
+**Goal in Context:** To update the data stored in policy database.
 
-**Stakeholders:**
+**Stakeholders:** Manager, Developer.
 
-**Preconditions:**
+**Preconditions:** Policy database contains the data to be updated.
 
-**Main Success Scenario:**
+**Main Success Scenario:** Manager successfully able to update the information.
 
-**Failed end Conditions:**
+**Failed end Conditions:** Update does not happen.
 
-**Trigger:**
+**Trigger:** Manager sending policy data change request to policy operations.
